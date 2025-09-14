@@ -1,0 +1,237 @@
+.help-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: #5e90fb;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.help-btn:hover {
+  background-color: #67e6fa;
+}
+
+.help-popup {
+  position: fixed;
+  bottom: 90px;
+  right: 30px;
+  width: 320px;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  font-family: 'Segoe UI', sans-serif;
+}
+button{
+  color: #f9fafb;
+  background-color: #e5e7eb;
+}
+.button:hover{
+  color:white;
+}
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  background-color: beige;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.close-button:hover {
+  color: #000000;
+}
+
+.faq-item {
+  margin-bottom: 12px;
+}
+
+.faq-question {
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  color: #1f2937;
+}
+
+.faq-answer {
+  margin-top: 6px;
+  padding-left: 10px;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+
+/* .help-button {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #4d85fe; 
+  color: white;
+  font-size: 26px;
+  border: none;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.help-button:hover {
+  background-color: #6cf4fd;
+}
+
+.help-popup {
+  position: fixed;
+  bottom: 95px;
+  right: 24px;
+  width: 340px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  padding: 20px 24px;
+  z-index: 1000;
+  animation: slideUp 0.3s ease-in-out;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.help-popup h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 8px;
+}
+
+.faq-item {
+  margin-bottom: 12px;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+  color: #1f2937;
+  padding: 8px 0;
+  transition: color 0.2s;
+}
+
+.faq-question:hover {
+  color: #2563eb;
+}
+
+.faq-answer {
+  color: #4b5563;
+  font-size: 0.9rem;
+  padding-left: 8px;
+  padding-top: 4px;
+  line-height: 1.5;
+  border-left: 2px solid #d1d5db;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #6b7280;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.close-button:hover {
+  color: #ef4444; 
+}
+.help-button {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #4ba2fe;
+  color: white;
+  font-size: 24px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  cursor: pointer;
+  z-index: 999;
+}
+
+.help-popup {
+  position: fixed;
+  bottom: 90px;
+  right: 25px;
+  width: 300px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  padding: 20px;
+  z-index: 999;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.help-popup h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  color: #444;
+}
+
+.faq-answer {
+  padding-left: 10px;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+} */

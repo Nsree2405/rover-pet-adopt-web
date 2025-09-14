@@ -1,0 +1,130 @@
+.myheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.header-left {
+  flex: 1;
+  min-width: 150px;
+}
+
+.heading1 {
+  margin:0;
+  font-style: italic;
+  font-size: 40px;
+  font-family: 'Georgia', serif;
+  color: white;
+}
+
+.heading1 sub {
+  font-size: 14px;
+  color: #dce3ff;
+  display: block;
+}
+
+.header-center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 250px;
+}
+
+.search-form {
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  background-color: #4da6ff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.header-right {
+  display: flex;
+  position:relative;
+  justify-content: center;
+  gap: 20px;
+  min-width: 300px;
+  flex-wrap: nowrap;
+}
+
+.header-right button {
+  background-color: #3d5afe;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header-right button:hover {
+  background-color: #7cdeff;
+}
+
+/* Suggestions list styles */
+.suggestions-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 1000;
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+.suggestions-list li {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  font-size: 15px;
+}
+
+.suggestions-list li:hover {
+  background-color: #f1f1f1;
+}
+
+/* .clear-button {
+  position: absolute;
+  right: 200px; 
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;  
+  color: #888;
+}
+
+.clear-button:hover {
+  color: #000;
+} */

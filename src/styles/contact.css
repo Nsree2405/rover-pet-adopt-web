@@ -1,0 +1,27 @@
+.contact-container {
+  margin-top: 100px;
+  padding: 40px;
+  text-align: center;
+  background-color: #f5faff;
+  min-height: 70vh;
+}
+
+.contact-container h1 {
+  color: #2a4d9b;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact-links p {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.contact-links a {
+  color: #1c6dd0;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
