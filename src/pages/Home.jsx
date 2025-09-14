@@ -19,7 +19,7 @@ function Home({ onNavigate }) {
     { label: 'Female Puppies', onClick: () => onNavigate('femalePups'), img: 'Images/Female puppy/Mia.jpg' },
     { label: 'Male Cats', onClick: () => onNavigate('maleCats'),  img: 'Images/Male cat/Simba.jpg' },
     { label: 'Female Cats', onClick: () => onNavigate('femaleCats'), img: '/Images/Female Cat/Willow.jpg' },
-    { label: 'Male Kittens', onClick: () => onNavigate('maleKittens'), img: 'Images/male Kitten/Binx.jpg' },
+    { label: 'Male Kittens', onClick: () => onNavigate('maleKittens'), img: 'Images/Male Kitten/Binx.jpg' },
     { label: 'Female Kittens', onClick: () => onNavigate('femaleKittens'), img: 'Images/Female Kitten/Maple.jpg' }
   ];
 

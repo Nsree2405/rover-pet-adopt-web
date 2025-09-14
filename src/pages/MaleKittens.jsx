@@ -57,7 +57,7 @@ const MaleKittens = ({ onNavigate }) => {
       age: 5,
       height: 10,
       weight: 1.1,
-      photo: '/Images/Male cat/Milo.jpg'
+      photo: '/Images/Male Kitten/Milo.jpg'
     },
     {
       name: 'Gizmo',
